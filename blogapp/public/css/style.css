@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+.navegacao{
+    height: 10vh;
+    background-color: silver;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.navegacao ul li{
+    display: inline-block;
+    margin-left: 15px;
+    padding: 10px;
+    border-radius: 15px;
+    transition: .3s;
+}
+
+.navegacao ul li:hover{
+    background-color: steelblue;
+}
+
+.navegacao ul li a{
+    text-decoration: none;
+}
